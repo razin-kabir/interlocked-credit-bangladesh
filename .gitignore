@@ -1,0 +1,51 @@
+# ── Survey microdata and boundary files are NEVER committed (see data/README.md)
+data/*
+!data/README.md
+!data/checksums.sha256
+*.dta
+*.Rdata
+*.rdata
+*.rds
+*.sav
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.pkl
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.gpkg
+*.geojson
+
+# ── Executed notebooks and other build output
+build/
+.ipynb_checkpoints/
+
+# ── Python
+__pycache__/
+*.py[oc]
+.venv/
+
+# ── LaTeX build artefacts (paper/main.pdf IS committed)
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.spl
+paper/*.synctex.gz
+paper/*.toc
+
+# ── OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

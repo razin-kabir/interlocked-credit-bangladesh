@@ -1,0 +1,35 @@
+\begin{tabular}{lcc}
+\toprule
+& Logit (AME) & LPM \\
+& (1) & (2) \\
+\midrule
+\multicolumn{3}{l}{\textit{Trader characteristics}} \\
+\addlinespace[2pt]
+Age (years, mean-centred) & 0.001 & 0.000 \\
+& (0.001) & (0.002) \\
+\addlinespace[2pt]
+Schooling (approx.\ years, mean-centred) & -0.011$^{***}$ & -0.011$^{**}$ \\
+& (0.004) & (0.005) \\
+\addlinespace[2pt]
+Years in business (mean-centred) & -0.000 & -0.000 \\
+& (0.002) & (0.002) \\
+\addlinespace[2pt]
+Subsidiary of another business & -0.128$^{***}$ & -0.146$^{***}$ \\
+& (0.026) & (0.056) \\
+\addlinespace[2pt]
+Sole proprietorship & -0.074$^{*}$ & -0.066 \\
+& (0.041) & (0.055) \\
+\addlinespace[2pt]
+Trader type: Aratdar & 0.097$^{***}$ & 0.100$^{**}$ \\
+& (0.027) & (0.045) \\
+\addlinespace[2pt]
+Trader type: Broker/intermediary & {---} & 0.299$^{***}$ \\
+&  & (0.070) \\
+\addlinespace[2pt]
+\midrule
+Season FEs & Yes & Yes \\
+Observations & 829 & 837 \\
+\addlinespace[2pt]
+\multicolumn{3}{p{0.72\textwidth}}{\footnotesize \textit{Notes:} Dependent variable: binary indicator for any supplier credit (trader-season). Column (1): logit average marginal effects. Column (2): linear probability model, SE clustered at upazila level. Schooling converts the highest level completed to approximate years. Years in business $= 2018 -$ year the business was established. Reference categories: partnership (ownership), Faria/bepari (trader type). All broker/intermediary trader-seasons report credit, so the broker dummy perfectly predicts the outcome; these observations are dropped from the logit. $^{*}p<0.10$, $^{**}p<0.05$, $^{***}p<0.01$.} \\
+\bottomrule
+\end{tabular}

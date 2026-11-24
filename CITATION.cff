@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Replication code for: Interlocked Credit in Agricultural Commodity Markets"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/razin-kabir/interlocked-credit-bangladesh"
+authors:
+  - family-names: Kabir
+    given-names: Razin
+    affiliation: International Food Policy Research Institute (IFPRI)
+preferred-citation:
+  type: unpublished
+  title: "Interlocked Credit in Agricultural Commodity Markets: Prevalence, Structure, and Market Implications in Bangladesh's Rice Trading Sector"
+  year: 2026
+  notes: "Working paper"
+  authors:
+    - family-names: Kabir
+      given-names: Razin
+      affiliation: International Food Policy Research Institute (IFPRI)
