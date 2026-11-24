@@ -5,8 +5,7 @@ Nothing in this folder except this file and `checksums.sha256` is tracked by git
 ## 1. MATS 2018 trader survey
 
 The 2018 Bangladesh Millers and Traders Survey (MATS) was conducted by the International Food
-Policy Research Institute (IFPRI). The microdata are **not publicly released**, and the trader
-roster module contains direct identifiers (names, union/village, GPS coordinates).
+Policy Research Institute (IFPRI). The microdata are **not publicly released**.
 To request access, contact the corresponding author or IFPRI.
 
 The analysis needs five cleaned trader modules:
